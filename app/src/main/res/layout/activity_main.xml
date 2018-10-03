@@ -44,7 +44,7 @@
         android:text="Mars in the future" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/other_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
