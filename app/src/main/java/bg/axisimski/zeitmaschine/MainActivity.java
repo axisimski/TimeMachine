@@ -1,5 +1,6 @@
 package bg.axisimski.zeitmaschine;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         wwii_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                Intent intent =new Intent(MainActivity.this, WWII_Act.class);
+                startActivity(intent);
 
             }
         });
