@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bcg"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,6 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="88dp"
         android:text="Please Select an Era"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp"
         android:textStyle="bold" />
 
